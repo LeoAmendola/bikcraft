@@ -2,7 +2,8 @@
   background: var(--color-c11);
 }
 .insurance {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -33,7 +34,6 @@
 .insurance-item ul {
   grid-column: 1/-1;
   margin-bottom: 32px;
-
 }
 .insurance-item li {
   display: flex;
@@ -61,6 +61,7 @@
 
 @media (max-width: 800px) {
   .insurance {
-    grid-template-columns: 1rf;
+    grid-template-columns: 1fr;
   }
 }
+
