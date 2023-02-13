@@ -1,0 +1,105 @@
+.tech-bg {
+  display: block;
+  background: var(--color-c11);
+  box-shadow: inset 0 80px 0 var(--color-c0), inset 0 -80px 0 var(--color-c0);
+}
+
+.tech {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.tech-content {
+  display: block;
+  box-sizing: border-box;
+  padding: 160px 0;
+}
+
+.tech > span {
+  display: block;
+}
+
+.tech h2 {
+  margin: 20px 0 32px;
+}
+
+.tech-p {
+  margin-bottom: 20px;
+}
+.link {
+  margin-bottom: 70px;
+}
+
+/* Imagem do quadro */
+.tech-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: left;
+}
+
+.tech-benefits {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.tech-benefits {
+  position: relative;
+}
+
+.tech-benefits::after {
+  display: block;
+  content: "";
+  width: 52px;
+  height: 52px;
+  background: url("../utilities/img/dec/bottom-left.svg");
+  position: absolute;
+  bottom: -50px;
+  left: -80px;
+}
+
+.tech-benefits > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.tech-benefits h3 {
+  width: max-content;
+}
+
+.tech-benefits img {
+  width: 24px;
+  height: auto;
+}
+/* .tech-benefits p {
+ width: 261px; 
+} */
+
+@media (max-width: 800px) {
+  .tech-bg {
+    box-shadow: initial;
+  }
+  .tech {
+    grid-template-columns: 1fr;
+  }
+  .tech-content {
+    padding: 60px 0;
+  }
+  .tech a {
+    margin-bottom: 50px;
+  }
+  .tech-img {
+    display: none;
+  }
+  .tech-benefits::after {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .tech-benefits {
+    flex-direction: column;
+    justify-content: left;
+  }
+}
