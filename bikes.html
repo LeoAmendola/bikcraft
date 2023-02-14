@@ -9,18 +9,18 @@
   <title>Nossas Bicicletas | Bikcraft</title>
   <meta name="description" content="Termos e condições">
 
-  <link rel="stylesheet" href="./src/css/style.min.css">
+  <link rel="stylesheet" href="./css/style.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="bikes">
   <header class="header-bg">
     <div class="header container">
 
       <a href="./">
-        <img src="./src/img/bikcraft.svg" alt="Bikcraft" title="Bikcraft">
+        <img src="./img/bikcraft.svg" alt="Bikcraft" title="Bikcraft">
       </a>
 
       <nav aria-label="primaria">
@@ -40,102 +40,114 @@
         <h1 class="font-1-xxl color-c0">nossas bicicletas<span class="color-p1">.</span></h1>
       </div>
     </div>
-    <section class="bikes container font-2-s color-c10">
+    <div class="bikes">
       <div class="bikes-content">
-        <div class="bikes-item">
-          <img src="./src/img/bicicletas/nimbus.jpg" alt="bicicleta Nimbus Stark">
+        <div class="bikes-item  container">
+          <div class="bikes-img">
+            <img src="./img/bicicletas/nimbus.jpg" alt="bicicleta Nimbus Stark">
+            <span class="font-2-m color-c0">R$ 4999</span>
+          </div>
           <div class="bikes-info">
-            <h3 class="font-1-xl color-c11">Nimbus Stark</h3>
-            <p class="font-2-m color-c8">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+            <h2 class="font-1-xl color-c11">Nimbus Stark</h2>
+            <p class="font-2-s color-c8">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
             <div>
-              <ul class="font-2-m color-c8">
+              <ul class="font-1-m color-c8">
                 <li>
-                  <img src="./src/img/icones/eletrica.svg" alt="icone bicicleta elétrica">
+                  <img src="./img/icones/eletrica.svg" alt="icone bicicleta elétrica">
                   <span>Motor Elétrico</span>
                 </li>
                 <li>
-                  <img src="./src/img/icones/carbono.svg" alt="icone fibra de carbono">
+                  <img src="./img/icones/carbono.svg" alt="icone fibra de carbono">
                   <span>Fibra de Carbono</span>
                 </li>
                 <li>
-                  <img src="./src/img/icones/velocidade.svg" alt="icone velocidade">
+                  <img src="./img/icones/velocidade.svg" alt="icone velocidade">
                   <span>40 km/h</span>
                 </li>
                 <li>
-                  <img src="./src/img/icones/rastreador.svg" alt="icone rastreador">
+                  <img src="./img/icones/rastreador.svg" alt="icone rastreador">
                   <span>Rastreador</span>
                 </li>
               </ul>
             </div>
 
-            <a class="button" href="./">MAIS SOBRE <img src="./src/img/icones/seta.svg"></a>
+            <a class="button arrow" href="./">MAIS SOBRE </a>
           </div>
         </div>
-        <div class="bikes-item">
-          <img src="./src/img/bicicletas/magic.jpg" alt="bicicleta Magic Might">
-          <div class="bikes-info">
-            <h3 class="font-1-xl color-c0">Magic Might</h3>
-            <p class="font-2-m color-c5">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
-            <div>
-              <ul class="font-2-m color-c5">
-                <li>
-                  <img src="./src/img/icones/eletrica.svg" alt="icone bicicleta elétrica">
-                  <span>Motor Elétrico</span>
-                </li>
-                <li>
-                  <img src="./src/img/icones/carbono.svg" alt="icone fibra de carbono">
-                  <span>Fibra de Carbono</span>
-                </li>
-                <li>
-                  <img src="./src/img/icones/velocidade.svg" alt="icone velocidade">
-                  <span>40 km/h</span>
-                </li>
-                <li>
-                  <img src="./src/img/icones/rastreador.svg" alt="icone rastreador">
-                  <span>Rastreador</span>
-                </li>
-              </ul>
+        <div class="bikes-bg ">
+          <div class="bikes-item container">
+            <div class="bikes-img">
+              <img src="./img/bicicletas/magic.jpg" alt="bicicleta Magic Might">
+              <span class="font-2-m color-c0">R$ 2499</span>
             </div>
+            <div class="bikes-info">
+              <h2 class="font-1-xl color-c0">Magic Might</h2>
+              <p class="font-2-s color-c5">A Magic Might é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+              <div>
+                <ul class="font-1-m color-c5">
+                  <li>
+                    <img src="./img/icones/eletrica.svg" alt="icone bicicleta elétrica">
+                    <span>Motor Elétrico</span>
+                  </li>
+                  <li>
+                    <img src="./img/icones/carbono.svg" alt="icone fibra de carbono">
+                    <span>Fibra de Carbono</span>
+                  </li>
+                  <li>
+                    <img src="./img/icones/velocidade.svg" alt="icone velocidade">
+                    <span>40 km/h</span>
+                  </li>
+                  <li>
+                    <img src="./img/icones/rastreador.svg" alt="icone rastreador">
+                    <span>Rastreador</span>
+                  </li>
+                </ul>
+              </div>
 
-            <a class="button" href="./">MAIS SOBRE <img src="./src/img/icones/seta.svg"></a>
+              <a class="button arrow" href="./">MAIS SOBRE </a>
+            </div>
           </div>
         </div>
-        <div class="bikes-item">
-          <img src="./src/img/bicicletas/nebula.jpg" alt="bicicleta Nebula Cosmic">
+        <div class="bikes-item container">
+          <div class="bikes-img">
+            <img src="./img/bicicletas/nebula.jpg" alt="bicicleta Nebula Cosmic">
+            <span class="font-2-m color-c0">R$ 3999</span>
+          </div>
           <div class="bikes-info">
-            <h3 class="font-1-xl color-c11">Nebula Cosmic</h3>
-            <p class="font-2-m color-c8">A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
+
+            <h2 class="font-1-xl color-c11">Nebula Cosmic</h2>
+            <p class="font-2-s color-c8">A Nebula Cosmic é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
             <div>
-              <ul class="font-2-m color-c8">
+              <ul class="font-1-m color-c8">
                 <li>
-                  <img src="./src/img/icones/eletrica.svg" alt="icone bicicleta elétrica">
+                  <img src="./img/icones/eletrica.svg" alt="icone bicicleta elétrica">
                   <span>Motor Elétrico</span>
                 </li>
                 <li>
-                  <img src="./src/img/icones/carbono.svg" alt="icone fibra de carbono">
+                  <img src="./img/icones/carbono.svg" alt="icone fibra de carbono">
                   <span>Fibra de Carbono</span>
                 </li>
                 <li>
-                  <img src="./src/img/icones/velocidade.svg" alt="icone velocidade">
+                  <img src="./img/icones/velocidade.svg" alt="icone velocidade">
                   <span>40 km/h</span>
                 </li>
                 <li>
-                  <img src="./src/img/icones/rastreador.svg" alt="icone rastreador">
+                  <img src="./img/icones/rastreador.svg" alt="icone rastreador">
                   <span>Rastreador</span>
                 </li>
               </ul>
             </div>
 
-            <a class="button" href="./">MAIS SOBRE <img src="./src/img/icones/seta.svg"></a>
+            <a class="button arrow " href="./">MAIS SOBRE </a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </main>
   <footer class="footer-bg">
     <div class="footer container">
       <div class="footer-img">
-        <img src="./src/img/bikcraft.svg" alt="Bikcraft">
+        <img src="./img/bikcraft.svg" alt="Bikcraft">
       </div>
       <div class="footer-contato">
         <h3 class="font-2-l-b color-c0">contato</h3>
@@ -147,13 +159,13 @@
         </ul>
         <div class="footer-social color-c5">
           <a href="./">
-            <img src="./src/img/redes/instagram.svg" alt="Instagram">
+            <img src="./img/redes/instagram.svg" alt="Instagram">
           </a>
           <a href="./">
-            <img src="./src/img/redes/facebook.svg" alt="Facebook">
+            <img src="./img/redes/facebook.svg" alt="Facebook">
           </a>
           <a href="./">
-            <img src="./src/img/redes/youtube.svg" alt="Youtube">
+            <img src="./img/redes/youtube.svg" alt="Youtube">
           </a>
         </div>
       </div>

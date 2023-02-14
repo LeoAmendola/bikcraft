@@ -34,7 +34,7 @@ intro .button::after {
   content: "";
   width: 52px;
   height: 52px;
-  background: url("../utilities/img/dec/bottom-left.svg");
+  background: url("../../img/dec/bottom-left.svg");
 
   position: absolute;
   bottom: -50px;
@@ -48,7 +48,6 @@ intro .button::after {
 }
 
 @media (max-width: 800px) {
-  
   .intro-bg {
     background-color: var(--color-c11);
     padding-top: 40px;
