@@ -22,6 +22,10 @@
 @import "../insurance/insurance.css";
 @import "../insurance/benefits.css";
 @import "../insurance/faq.css";
+@import "../insurance/insurance-bike.css";
 
 /* TERMS */
 @import "../terms/terms.css";
+
+/* BIKES-INT */
+@import "../bikes-int/bike-int.css";

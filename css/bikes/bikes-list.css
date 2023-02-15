@@ -14,12 +14,20 @@
   gap: 40px;
   margin: 0 auto;
   overflow-x: auto;
+  flex-wrap: nowrap;
+}
+#bike-int .bikes-list {
+  padding: 0 0 20px;
 }
 
 .bikes-list li {
   flex: 1;
   min-width: 280px;
   padding-bottom: 20px;
+}
+
+#bike-int .bikes-list li {
+  min-width: 300px;
 }
 .bikes-list a {
   display: block;
