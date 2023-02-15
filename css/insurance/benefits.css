@@ -1,0 +1,41 @@
+.benefits-bg {
+  background: var(--color-c12);
+}
+
+.benefits {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.benefits h2 {
+  margin-bottom: 92px;
+}
+
+.benefits-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 40px 80px;
+}
+
+.benefits-content li {
+  display: grid;
+  gap: 8px;
+  align-self: start center;
+}
+
+.benefits-content li p {
+  max-width: 45ch;
+}
+
+@media (max-width: 800px) {
+  .benefits {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .benefits h2 {
+    margin-bottom: 40px;
+  }
+  .benefits-content {
+    gap: 20px;
+  }
+}
