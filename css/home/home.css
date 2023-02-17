@@ -1,7 +1,6 @@
 /* MAIN */
 
 .intro-bg {
-  display: block;
   background-color: var(--color-c12);
   box-shadow: inset 0 -120px var(--color-c0);
 }
@@ -9,6 +8,7 @@
 .intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
 }
 
 .intro-content {
@@ -16,35 +16,22 @@
   padding-bottom: 200px;
 }
 
-.intro-titulo {
-  margin-bottom: 32px;
-}
-
-.intro-texto {
-  margin-bottom: 20px;
-}
-.button {
-  position: relative;
-}
-.button:hover {
-  background: linear-gradient(#ffb60d, #e59317);
-}
-intro .button::after {
-  display: block;
-  content: "";
-  width: 52px;
-  height: 52px;
-  background: url("../../img/dec/bottom-left.svg");
-
-  position: absolute;
-  bottom: -50px;
-  left: -80px;
-}
-
 .intro img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+
+.intro-title {
+  margin-bottom: 32px;
+}
+
+.intro-p {
+  margin-bottom: 20px;
+}
+
+intro-content a {
+  position: relative;
 }
 
 @media (max-width: 800px) {

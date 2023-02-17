@@ -2,6 +2,7 @@
 @import "../utilities/typography.css";
 @import "../utilities/colors.css";
 @import "../utilities/components.css";
+@import "../utilities/forms.css";
 
 /* GLOBAL */
 @import "../global/global.css";
@@ -18,14 +19,18 @@
 @import "../bikes/bikes-list.css";
 @import "../bikes/bikes.css";
 
+/* BIKES-INT */
+@import "../bikes-int/bike-int.css";
+@import "../bikes-int/bike-insurance.css";
+
 /* INSURANCE */
 @import "../insurance/insurance.css";
 @import "../insurance/benefits.css";
 @import "../insurance/faq.css";
-@import "../insurance/insurance-bike.css";
+
+/* CONTACT */
+@import "../contact/contact.css";
+@import "../contact/stores.css";
 
 /* TERMS */
 @import "../terms/terms.css";
-
-/* BIKES-INT */
-@import "../bikes-int/bike-int.css";

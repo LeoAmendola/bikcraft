@@ -8,8 +8,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 40px;
   margin: 0 auto;
-  /* align-items: center; */
 }
+
 .insurance-bike-info {
   display: block;
   padding-top: 180px;

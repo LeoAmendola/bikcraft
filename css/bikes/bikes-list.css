@@ -1,6 +1,7 @@
 .bikes-list-bg {
-  padding: 60px 0px 120px;
-  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 120px;
+
 }
 
 .bikes-list-bg h2 {
@@ -9,41 +10,40 @@
 
 .bikes-list {
   display: flex;
-  padding: 0 20px 20px;
+  padding: 0 20px 20px 20px;
   max-width: 1400px;
   gap: 40px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   overflow-x: auto;
-  flex-wrap: nowrap;
 }
 #bike-int .bikes-list {
-  padding: 0 0 20px;
+  padding: 0 0 20px 0;
 }
 
-.bikes-list li {
+.bikes-list-bg li {
   flex: 1;
   min-width: 280px;
-  padding-bottom: 20px;
 }
 
 #bike-int .bikes-list li {
   min-width: 300px;
 }
-.bikes-list a {
+.bikes-list-bg a {
   display: block;
 }
 
-.bikes-list img {
+.bikes-list-bg img {
   margin-bottom: 16px;
 }
 
-.bikes-list h3 {
+.bikes-list-bg h3 {
   margin-bottom: 8px;
   display: flex;
   align-items: center;
 }
 
-.bikes-list h3::before {
+.bikes-list-bg h3::before {
   content: "";
   display: inline-block;
   width: 12px;
@@ -53,11 +53,11 @@
   transition: width 0.2s;
 }
 
-.bikes-list a:hover h3::before {
+.bikes-list-bg a:hover h3::before {
   width: 24px;
 }
 
-.bikes-list li span {
+.bikes-list-bg li span {
   padding-left: 20px;
 }
 
