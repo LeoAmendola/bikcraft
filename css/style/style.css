@@ -32,5 +32,8 @@
 @import "../contact/contact.css";
 @import "../contact/stores.css";
 
+/* CONTACT */
+@import "../budget/budget.css";
+
 /* TERMS */
 @import "../terms/terms.css";
