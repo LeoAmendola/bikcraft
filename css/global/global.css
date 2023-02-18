@@ -15,7 +15,7 @@ dd {
   margin: 0px;
 }
 
-ul{
+ul {
   padding: 0px;
   list-style: none;
 }
@@ -26,6 +26,7 @@ a {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
 }
 

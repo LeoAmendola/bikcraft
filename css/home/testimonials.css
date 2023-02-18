@@ -6,20 +6,20 @@
   grid-template-columns: 1fr 1fr;
   overflow: hidden;
 }
-.depo-img {
-  align-self: center;
-}
 
 .depo-img img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   border-radius: 0px;
+  object-position: right;
 }
 
 .depo {
   padding: 40px 40px 80px 80px;
   align-self: end;
+  background: url("../../img/dec/bottom-right-p.svg") no-repeat bottom 40px
+    right 40px;
 }
 
 .depo p {
@@ -46,7 +46,11 @@
 .depo p::after {
   content: "”";
 }
-
+@media (min-width: 1200px) {
+  .depo-img img {
+    max-height: 520px;
+  }
+}
 @media (max-width: 1000px) {
   .depo-content {
     grid-template-columns: 1fr;
@@ -59,11 +63,8 @@
 }
 
 @media (max-width: 800px) {
-  .depo::before {
-    display: none;
-  }
-  .depo::after {
-    display: none;
+  .depo {
+    background: none;
   }
 
   .depo-img img {

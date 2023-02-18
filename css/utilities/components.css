@@ -78,8 +78,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-title p {
+.title{
+  background: url("../../img/dec/top-right.svg") no-repeat top right 40px;
+}
+.title p {
   margin-bottom: 4px;
 }
 

@@ -1,7 +1,8 @@
 /* MAIN */
 
 .intro-bg {
-  background-color: var(--color-c12);
+  background: var(--color-c12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 140px left 20px;
   box-shadow: inset 0 -120px var(--color-c0);
 }
 
@@ -36,7 +37,7 @@ intro-content a {
 
 @media (max-width: 800px) {
   .intro-bg {
-    background-color: var(--color-c11);
+    background: var(--color-c12);
     padding-top: 40px;
     box-shadow: inset 0 -60px var(--color-c0);
   }

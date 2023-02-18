@@ -9,10 +9,10 @@
   padding-top: 60px;
   padding-bottom: 60px;
   gap: 40px;
+  background: url("../../img/dec/top-right.svg") no-repeat top 40px right 20px;
 }
 
 .bikes-bg {
-  /* box-shadow: inset 200px 0 var(--color-c0); */
   background-image: linear-gradient(
     to right,
     var(--color-c0) 30%,

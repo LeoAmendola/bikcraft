@@ -23,7 +23,8 @@
 .stores-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 32px 16px;
+  gap: 32px 0px;
+  padding: 32px;
 }
 
 .stores-content h3,
@@ -31,10 +32,26 @@
   grid-column: 1/-1;
 }
 
+.stores-content h3 {
+  display: flex;
+  align-items: center;
+}
+
+.stores-content h3::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 8px;
+  margin-right: 8px;
+  background-color: var(--color-p1);
+  transition: width 0.2s;
+}
+
 .stores-data {
   display: grid;
   gap: 8px;
   border-left: 2px solid var(--color-c2);
+  /* margin-left: 24px; */
   padding-left: 12px;
 }
 

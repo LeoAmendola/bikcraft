@@ -1,6 +1,6 @@
 #contact {
   /* background: var(--color-c1); */
-  background: linear-gradient( var(--color-c11) 600px, var(--color-c0) 0px);
+  background: linear-gradient(var(--color-c11) 600px, var(--color-c0) 0px);
 }
 .contact {
   display: grid;
@@ -13,11 +13,13 @@
 }
 .contact-data {
   border-radius: 5px 0 0 5px;
-  background: var(--color-c12);
+  background: var(--color-c12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
 }
 .contact-form {
   border-radius: 0 5px 5px 0;
-  background: var(--color-c0);
+  background: var(--color-c0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
 }
 .contact-data h2 {
   margin-bottom: 60px;
@@ -69,17 +71,19 @@
   .contact-form {
     padding: 20px;
   }
-  .contact-data{
+  .contact-data {
     border-radius: 5px 5px 0 0;
+    background: var(--color-c12);
   }
-  .contact-form{
+
+  .contact-form {
     border-radius: 0 0 5px 5px;
   }
 
-  .contact-data h2{
-    margin-bottom: 32px
+  .contact-data h2 {
+    margin-bottom: 32px;
   }
-  .contact-social{
+  .contact-social {
     margin-bottom: 12px;
   }
 }
