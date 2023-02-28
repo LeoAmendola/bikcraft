@@ -41,7 +41,6 @@
   transition: 0.3s;
 }
 
-.faq dt button:hover:after,
 .faq dt button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
