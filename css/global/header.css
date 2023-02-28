@@ -34,7 +34,8 @@
   transition: 0.3s;
   position: absolute;
 }
-.header-menu a:hover:after {
+.header-menu a:hover:after,
+.header-menu a.ativo::after {
   width: 100%;
 }
 @media (max-width: 800px) {
@@ -51,6 +52,11 @@
     transform: "transition";
     transition: 0.8;
   }
+  .header-menu a.ativo {
+    background: var(--color-c10);
+    font-weight: 600;
+  }
+
   .header-menu a::after {
     display: none;
   }

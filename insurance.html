@@ -9,11 +9,14 @@
   <title>Seguros | Bikcraft</title>
   <meta name="description" content="Seguros">
 
-  <link rel="preload" href="./css/style/style.cs">
-  <link rel="stylesheet" href="./css/style/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <script>document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="insurance">
@@ -42,7 +45,7 @@
     </div>
 
     <div class="insurance container">
-      <div class="insurance-item">
+      <div class="insurance-item fadeInRight " data-anime="200">
         <h3 class="font-1-xl color-c6">PRATA</h3>
         <span class="font-1-xl color-c0">R$ 199<span class="font-1-xs color-c6">mensal</span></span>
         <ul class="font-2-m color-c0">
@@ -51,11 +54,11 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="button sec font-btn color-c12" href="./budget.html">Inscreva-se</a>
+        <a class="button sec font-btn color-c12" href="./budget.html?type=insurance&product=silver">Contrate</a>
       </div>
 
 
-      <div class="insurance-item">
+      <div class="insurance-item fadeInLeft" data-anime="400">
         <h3 class="font-1-xl color-p1">OURO</h3>
         <span class="font-1-xl color-c0">R$ 299<span class="font-1-xs color-c6">mensal</span></span>
         <ul class="font-2-m color-c0">
@@ -66,7 +69,7 @@
           <li>Desconto em parceiros</li>
           <li>Acesso ao Clube Bikcraft</li>
         </ul>
-        <a class="button font-btn color-c12" href="./budget.html">Inscreva-se</a>
+        <a class="button font-btn color-c12" href="./budget.html?type=insurance&product=gold">Contrate</a>
       </div>
     </div>
 
@@ -118,32 +121,32 @@
     <dl>
 
       <div>
-        <dt class="font-1-m-b color-c11">Qual forma de pagamento vocês aceitam?</dt>
-        <dd class="font-2-s color-c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+        <dt><button class="font-1-m-b color-c11" aria-controls="faq-1" aria-expanded="false">Qual forma de pagamento vocês aceitam?</button></dt>
+        <dd class="font-2-s color-c9 " id="faq-1">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b color-c11">Como posso entrar em contato?</dt>
-        <dd class="font-2-s color-c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+        <dt><button class="font-1-m-b color-c11" aria-controls="faq-2" aria-expanded="false">Como posso entrar em contato?</button></dt>
+        <dd class="font-2-s color-c9" id="faq-2">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b color-c11">Vocês possuem algum desconto?</dt>
-        <dd class="font-2-s color-c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+        <dt><button class="font-1-m-b color-c11" aria-controls="faq-3" aria-expanded="false">Vocês possuem algum desconto?</button></dt>
+        <dd class="font-2-s color-c9" id="faq-3">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b color-c11">Qual a garantia que possuo?</dt>
-        <dd class="font-2-s color-c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+        <dt><button class="font-1-m-b color-c11" aria-controls="faq-4" aria-expanded="false">Qual a garantia que possuo?</button></dt>
+        <dd class="font-2-s color-c9" id="faq-4">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b color-c11">Posso parcelar no boleto?</dt>
-        <dd class="font-2-s color-c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+        <dt><button class="font-1-m-b color-c11" aria-controls="faq-5" aria-expanded="false">Posso parcelar no boleto?</button></dt>
+        <dd class="font-2-s color-c9" id="faq-5">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
       <div>
-        <dt class="font-1-m-b color-c11">Quantas trocas posso fazer ao ano?</dt>
-        <dd class="font-2-s color-c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+        <dt><button class="font-1-m-b color-c11" aria-controls="faq-6" aria-expanded="false">Quantas trocas posso fazer ao ano?</button></dt>
+        <dd class="font-2-s color-c9" id="faq-6">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
       <div>
-        <dt class="faq-content  font-1-m-b color-c11">Qual Bikcraft devo escolher para o meu tamanho?</dt>
-        <dd class="font-2-s color-c9">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
+        <dt><button class="font-1-m-b color-c11" aria-controls="faq-7" aria-expanded="false">Qual Bikcraft devo escolher para o meu tamanho?</button></dt>
+        <dd class="font-2-s color-c9" id="faq-7">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Exddress. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</dd>
       </div>
 
     </dl>
@@ -191,6 +194,8 @@
 
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

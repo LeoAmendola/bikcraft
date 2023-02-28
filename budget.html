@@ -10,11 +10,13 @@
     Orçamento | Bikcraft</title>
   <meta name="description" content="Orçamento">
 
-  <link rel="preload" href="./css/style/style.cs">
-  <link rel="stylesheet" href="./css/style/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <script> document.documentElement.classList.add('js');</script>
 </head>
 
 <body id="budget">
@@ -108,11 +110,11 @@
         <h2 class="font-1-xs color-c9 col-2">dados pessoais</h2>
         <div>
           <label for="name">Nome</label>
-          <input type="text" id="name" name="name">
+          <input type="text" id="name" name="name" placeholder="José">
         </div>
         <div>
           <label for="surname">Sobrenome</label>
-          <input type="text" id="surname" name="surname">
+          <input type="text" id="surname" name="surname" placeholder="Silva">
         </div>
         <div class="col-2">
           <label for="cpf">CPF</label>
@@ -125,27 +127,27 @@
         <h2 class="font-1-xs color-c9 col-2">entrega</h2>
         <div>
           <label for="cep">CEP</label>
-          <input type="text" id="cep" name="cep">
+          <input type="text" id="cep" name="cep" placeholder="12345-123">
         </div>
         <div>
           <label for="number">Número</label>
-          <input type="text" id="number" name="number">
+          <input type="text" id="number" name="number" placeholder="Ex.: 12 ou S/N">
         </div>
         <div>
-          <label for="street">LogradouroEP</label>
-          <input type="text" id="street" name="street">
+          <label for="street">Logradouro</label>
+          <input type="text" id="street" name="street" placeholder="Rua, Avenida, Travessa, etc.">
         </div>
         <div>
           <label for="district">Bairro</label>
-          <input type="text" id="district" name="district">
+          <input type="text" id="district" name="district" placeholder="Ex.: Madureira">
         </div>
         <div>
           <label for="city">Cidade</label>
-          <input type="text" id="city" name="city">
+          <input type="text" id="city" name="city" placeholder="Ex.: Rio de Janeiro, São Paulo">
         </div>
         <div>
           <label for="state">Estado</label>
-          <input type="text" id="state" name="state">
+          <input type="text" id="state" name="state" placeholder="Ex.: Rio de Janeiro, São Paulo">
         </div>
         <div class="budget-check col-2">
           <input type="checkbox" name="terms" id="terms" required>
@@ -199,6 +201,8 @@
 
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>

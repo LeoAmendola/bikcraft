@@ -7,11 +7,16 @@
 
   <title>Bikcraft - Bicicletas Elétricas</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
-  <link rel="preload" href="./css/style/style.cs">
-  <link rel="stylesheet" href="./css/style/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script>document.documentElement.classList.add('js');</script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -34,16 +39,16 @@
   <main class="intro-bg">
     <div class="intro container">
       <div class="intro-content">
-        <h1 class="intro-title font-1-xxl color-c0">
+        <h1 class="intro-title font-1-xxl color-c0 fadeInDown" data-anime="200">
           Bicicletas feitas sob medida<span class="color-p1">.</span>
         </h1>
-        <p class="intro-p font-2-l color-c5">
+        <p class="intro-p font-2-l color-c5 fadeInDown" data-anime="400" data-clipboard-text="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
           Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.
         </p>
-        <a class="button font-btn color-c12" href="./bikes.html">Escolha a sua</a>
+        <a class="button font-btn color-c12 fadeInDown" href="./bikes.html" data-anime="600">Escolha a sua</a>
       </div>
 
-      <picture>
+      <picture data-anime="200" class="fadeInDown">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta">
       </picture>
@@ -142,7 +147,7 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="button sec font-btn color-c12" href="./insurance.html">Inscreva-se</a>
+        <a class="button sec font-btn color-c12" href="./insurance.html">Saiba mais</a>
       </div>
 
       <div class="insurance-item">
@@ -156,7 +161,7 @@
           <li>Desconto em parceiros</li>
           <li>Acesso ao Clube Bikcraft</li>
         </ul>
-        <a class="button font-btn color-c12" href="./insurance.html">Inscreva-se</a>
+        <a class="button font-btn color-c12" href="./insurance.html">Saiba mais</a>
       </div>
     </div>
   </article>
@@ -201,6 +206,8 @@
 
   </footer>
 
+  <script src="./js/plugins/simple-anime.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
