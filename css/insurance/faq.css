@@ -41,7 +41,15 @@
   transition: 0.3s;
 }
 
-.faq dt button[aria-expanded="true"]::after {
+.faq dt button::after {
+  transform: rotate(180deg);
+}
+
+.js .faq dt button::after {
+  transform: none;
+}
+
+.js .faq dt button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
 
